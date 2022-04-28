@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Portal</title>
+    <link rel="stylesheet" href="otp.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div id="navImg">
+            <a href="index.html"><img id="navImg"
+                    src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5fc4feea074f5b86a6c62285_freshly-logo-R.svg">
+            </a>
+        </div>
+        <div id="navLinks">
+            <p><a href="plan.html" id="plan">Plans</a> <span>></span><a href="day.html" id="plan">Day</a>
+                <span>></span><a href="cart.html" id="plan">Meals</a> <span>></span><a href="checkout.html" id="plan">Checkout</a>
+            </p>
+        </div>
+        <div id="setup">
+            <div id="sign">
+                ?
+            </div>
+            <div id="support">
+                Customer Support
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div>
+            <label for="otp">Enter OTP:</label>
+            <input type="number">
+        </div>
+        <button id="btn">Submit</button>
+    </div>
+</body>
+
+<script>
+    document.querySelector("#btn").addEventListener("click", () => {
+        var otp = document.querySelector("input").value;
+        if (otp == 1234) {
+            alert("Payment successful!");
+            window.location.href = "index.html";
+        }
+    });
+</script>
+
+</html>

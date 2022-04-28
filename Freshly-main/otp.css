@@ -1,0 +1,105 @@
+.container {
+    border: grey 1px solid;
+    padding: 35px;
+    border-radius: 5px;
+    margin-top: 5%;
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: white;
+}
+
+input {
+    height: 25px;
+    margin-left: 10px;
+}
+
+#btn {
+    height: 35px;
+    background-color: rgb(42, 109, 255);
+    color: white;
+    border: 1px solid rgb(42, 109, 255);
+    border-radius: 7px;
+    margin-top: 17px;
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+    margin-bottom: -15px;
+}
+
+#btn:hover {
+    transform: translateX(2px) translateY(-2px);
+    transition: transform 0.4s;
+  }
+
+body {
+    margin: 0px;
+    width: 100%;
+    font-family: sans-serif;
+    background-color: rgb(255, 253, 247);
+}
+
+.navbar {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 90px 15px 75px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    height: 64px;
+    z-index: 1;
+}
+
+#navImg {
+    height: 27px;
+    width: 116px;
+}
+
+#navLinks {
+    margin-top: -2px;
+    width: 40%;
+    text-align: center;
+    color: rgb(208, 208, 208);
+    font-size: 0.85em;
+    font-weight: 550;
+    margin-left: 35px;
+}
+
+#setup {
+    color: rgb(42, 109, 255);
+    display: flex;
+}
+
+#sign {
+    border: 2px rgb(64, 121, 245) solid;
+    margin-top: 5px;
+    margin-right: 7px;
+    height: 21px;
+    width: 21px;
+    padding-left: 4px;
+    padding-top: 1px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+#support {
+    text-decoration: underline;
+    margin-top: 5px;
+}
+
+span {
+    padding: 0px 14px;
+}
+
+#plan {
+    color: rgb(42, 109, 255);
+}
+
+#day {
+    color: black;
+    margin: 0px -10px;
+}
